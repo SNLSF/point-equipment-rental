@@ -1,6 +1,7 @@
 equipment = [
 	{
 		name: "Genie Z60-34", 
+		category: "Manlift",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -14,6 +15,7 @@ equipment = [
 	},
 	{
 		name: "Mustang Skid Steer 2044", 
+		category: "Skidsteer",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -27,6 +29,7 @@ equipment = [
 	},
 	{
 		name: "JCB 508-40 Telescopic Forklift", 
+		category: "Telehandler",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -40,6 +43,7 @@ equipment = [
 	},
 	{
 		name: "JCB 506-b Telescopic Forklift", 
+		category: "Telehandler",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -53,6 +57,7 @@ equipment = [
 	},
 	{
 		name: "Scissor Lift", 
+		category: "Scissor Lift",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -66,6 +71,7 @@ equipment = [
 	},	
 	{
 		name: "GS™-1530 & GS™-1930", 
+		category: "Scissor Lift",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -79,6 +85,7 @@ equipment = [
 	},	
 	{
 		name: "GS™-2032 & GS™-2632", 
+		category: "Scissor Lift",
 		daily_price: "$100.00", 
 		weekly_price: "$300.00", 
 		monthly_price: "$900.00", 
@@ -92,9 +99,12 @@ equipment = [
 	}
 ]
 
+
+# Add the calculations that automatically make weekly 3x daily and monthly 3x weekly
 equipment.each do |eqpt|
 	Equipment.create!(
 		name: eqpt[:name], 
+		category: eqpt[:category],
 		daily_price: eqpt[:daily_price], 
 		weekly_price: eqpt[:weekly_price], 
 		monthly_price: eqpt[:monthly_price],
