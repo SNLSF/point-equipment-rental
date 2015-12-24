@@ -1,36 +1,26 @@
-<ul>
-	<li><a href="#">Manlifts</a></li>
-	<li><a href="#">Telehandlers</a></li>
-	<li><a href="#">Skidsteers</a></li>
-	<li><a href="#">Scissor Lifts</a></li>
-	<li><a href="#">Concrete Equipment</a></li>
-</ul>
-
-<h1>Amigo's Equipment Rental</h1>
-
-<h2>Services</h2>
-<p>Amigo Heavy Equipment Rental provides small contractors access to Heavy Construction Equipment to help them perform their work and expand their business. Having easy access to the right equipment at a great price from a dealer that stands in support of it’s clients is very important.</p>
-<p>At Amigo Heavy Equipment Rental we make renting from us easy. Just provide a valid Credit Card for payment, I.D. that matches the credit card and a certificate of Insurance and you are ready to go. All of the processing can be done by telephone, fax or email.</p>
-<p>We are committed to get you the right equipment for your job when you need it.</p>
-
-<h2>Equipment</h2>
-<p>We can provide you with diesel powered Telescopic Handlers to lift your materials up to the work area. The available equipment varies with lifting capacities from 6,000 lbs. or 8,000 lbs. with reaches from 36’ up to 40’.  With this equipment you can place Drywall, Mortar, Brick, Framing Materials, Stucco, Paint and a wide variety of supplies as your job may require.</p>
-<p>We also have available diesel powered and electric powered Manlifts with platforms heights from 30’ 35’ 45’ and up to 60’ in reach. These Manlifts allow you to perform your interior or exterior work with ease and safety. The baskets accomadate a 2 man crew up to 500 lbs. in weight. Easily reach high difficult areas for painting, framing, stucco, masonry, windows, fascia, gutters and many other tasks.</p>
-
-<p>Does your work focus more on the ground? We have available diesel powered Skidsteers both tire or track style depending on your needs. Easily move dirt or materials for ground based projects such as landscaping, plumbing, concrete, fencing, clearing and site maintenance. There are multiple accessories to make your job easier such as post hole augers, forklift attachment or concrete breakers.</p>
-<p>Are you a Concrete or Carpentry Contractor? We can help. We have available gasoline powered Walk-Behind Concrete Saws, electric Jack Hammers, Laser Transits, Barricades, Bull Float, Come alongs, air compressors, gasoline powered generators, flood lamps and more.</p>
-<p>Choose the right Equipment Rental Company for you, Choose Amigo Equipment Rental Co.</p>
-
-<div class="index">
+<header>
+	<h1>Amigo's Heavy Equipment Rental</h1>
 	<ul>
-		<% @equipment.each do |eqpt| %>
-			<li>
-				<a href="/equipment/<%= eqpt.id %>"><%= eqpt.name %><a>
-				<%= eqpt.category %>
-				<%= eqpt.daily_price %>
-				<%= eqpt.weekly_price %>
-				<%= eqpt.monthly_price %>
-			</li>
-		<% end %>
+		<li><a href="/equipment/manlifts/">Manlifts</a></li>
+		<li><a href="/equipment/telehandlers/">Telehandlers</a></li>
+		<li><a href="/equipment/skidsteers/">Skidsteers</a></li>
+		<li><a href="/equipment/scissorlifts/">Scissor Lifts</a></li>
+		<li><a href="/equipment/concrete/">Concrete Equipment</a></li>
 	</ul>
-</div>
+</header>
+<section>
+	<h2>Services</h2>
+	<p>Amigo Heavy Equipment Rental provides small contractors access to heavy construction equipment to help them perform their work and expand their business. Having easy access to the right equipment at a great price from a dealer that stands in support of its clients is very important.</p>
+	<p>At Amigo Heavy Equipment Rental we make renting from us easy. Just provide a valid credit card for payment, I.D. that matches the credit card and a certificate of insurance and you are ready to go. All of the processing can be done by telephone, fax or email.</p>
+	<p>We are committed to get you the right equipment for your job when you need it.</p>
+</section>
+<section>
+	<h2>Equipment</h2>
+	<p>We can provide you with diesel powered telescopic handlers to lift your materials up to the work area. The available equipment varies with lifting capacities from 6,000 lbs. or 8,000 lbs. with reaches from 36’ up to 40’.  With this equipment you can place drywall, mortar, brick, framing materials, stucco, paint and a wide variety of supplies as your job may require.</p>
+	<p>We also have available diesel powered and electric powered manlifts with platforms heights from 30’ 35’ 45’ and up to 60’ in reach. These manlifts allow you to perform your interior or exterior work with ease and safety. The baskets accomadate a 2 man crew up to 500 lbs. in weight. Easily reach high difficult areas for painting, framing, stucco, masonry, windows, fascia, gutters and many other tasks.</p>
+</section>
+<section>
+	<p>Does your work focus more on the ground? We have available diesel powered skidsteers both tire or track style depending on your needs. Easily move dirt or materials for ground based projects such as landscaping, plumbing, concrete, fencing, clearing and site maintenance. There are multiple accessories to make your job easier such as post hole augers, forklift attachment or concrete breakers.</p>
+	<p>Are you a concrete or carpentry contractor? We can help. We have available gasoline powered walk-behind concrete saws, electric jack hammers, laser transits, barricades, bull float, come alongs, air compressors, gasoline powered generators, flood lamps and more.</p>
+	<p>Choose the right equipment rental company for you. Choose Amigo Equipment Rental Co.</p>
+</section>
