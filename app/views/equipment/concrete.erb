@@ -1,1 +1,17 @@
-<h1>testing concrete</h1>
+<section>
+	<h2>Concrete Equipment</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida condimentum metus eu aliquet. Duis in sollicitudin magna. Cras eros augue, varius vitae sapien vitae, posuere interdum ante. Duis quam elit, ornare at feugiat sit amet, rhoncus ut lacus. Aliquam semper dolor non hendrerit suscipit. Morbi nec velit lorem.</p>
+</section>
+<% @equipment.each do |e| %>
+	<section>
+		<div class="placeholder__image">image<br>in<br>here</div>
+		<h3><%= e.name %></h3>
+		<p><%= e.description %></p>
+		<span><a href="<%=e.spec_url%>">Read the full Ritchie Spec</a></span>
+		<ul>
+			<li>Daily Price: <span class="price"><%= e.daily_price %></span></li>
+			<li>Weekly Price: <span class="price"><%= e.weekly_price %></span></li>
+			<li>Monthly Price: <span class="price"><%= e.monthly_price %></span></li>
+		</ul>
+	</section>
+<% end %>
