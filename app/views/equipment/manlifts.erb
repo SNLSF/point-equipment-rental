@@ -1,1 +1,15 @@
-<h1>testing manlifts</h1>
+<section>
+	<h2>Manlifts</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida condimentum metus eu aliquet. Duis in sollicitudin magna. Cras eros augue, varius vitae sapien vitae, posuere interdum ante. Duis quam elit, ornare at feugiat sit amet, rhoncus ut lacus. Aliquam semper dolor non hendrerit suscipit. Morbi nec velit lorem.</p>
+</section>
+<section>
+	<% @equipment.each do |e| %>
+		<div class="placeholder__image">image<br>in<br>here</div>
+		<%= e.name %>
+		<%= e.description %>
+		<span><a href="<%=e.spec_url%>">Read the full Ritchie Spec</a></span>
+		<%= e.daily_price %>
+		<%= e.weekly_price %>
+		<%= e.monthly_price %>
+	<% end %>
+</section>

@@ -9,25 +9,27 @@ get '/equipment/:id' do
 end
 
 get '/equipment/manlifts/' do
-	# 	# p "*" * 50
-	# 	# # @equipment = Equipment.where(category:"Manlift")
-	# 	# @equipment = Equipment.find(1)
-	# 	# p @equipment
+	@equipment = Equipment.where(category:"Manlift")
 	erb :'equipment/manlifts'
 end
 
 get '/equipment/telehandlers/' do
+	@equipment = Equipment.where(category:"Telehander")
 	erb :'equipment/telehandlers'
 end
 
 get '/equipment/skidsteers/' do
+	@equipment = Equipment.where(category:"Skidsteer")
 	erb :'equipment/skidsteers'
 end
 
 get '/equipment/scissorlifts/' do
+	@equipment = Equipment.where(category:"Sissor Lift")
 	erb :'equipment/scissorlifts'
 end
 
+# none in this category yet
 get '/equipment/concrete/' do
+	@equipment = Equipment.where(category:"Concrete")
 	erb :'equipment/concrete'
 end
