@@ -1,35 +1,24 @@
-get '/equipment' do
-	@equipment = Equipment.all
-	erb :'equipment/index'
-end
-
-get '/equipment/:id' do
-  @equipment = Equipment.find(params[:id])
-  erb :'equipment/show'
-end
-
-get '/equipment/manlifts/' do
+get '/manlifts/' do
 	@equipment = Equipment.where(category:"Manlift")
 	erb :'equipment/manlifts'
 end
 
-get '/equipment/telehandlers/' do
+get '/telehandlers/' do
 	@equipment = Equipment.where(category:"Telehander")
 	erb :'equipment/telehandlers'
 end
 
-get '/equipment/skidsteers/' do
+get '/skidsteers/' do
 	@equipment = Equipment.where(category:"Skidsteer")
 	erb :'equipment/skidsteers'
 end
 
-get '/equipment/scissorlifts/' do
+get '/scissorlifts/' do
 	@equipment = Equipment.where(category:"Scissor Lift")
 	erb :'equipment/scissorlifts'
 end
 
-# none in this category yet
-get '/equipment/concrete/' do
+get '/concrete/' do
 	@equipment = Equipment.where(category:"Concrete")
 	erb :'equipment/concrete'
 end
