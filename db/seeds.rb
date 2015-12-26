@@ -114,3 +114,5 @@ equipment.each do |eqpt|
 end
 
 
+
+

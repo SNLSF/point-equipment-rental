@@ -1,6 +1,7 @@
 .placeholder__image {
 	max-width: 80%;
-	height: auto;
+	height: 100px;
+	display: inline-block;
 	background-color: aqua;
 	margin: 5% 10%;
 }
