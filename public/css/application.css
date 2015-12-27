@@ -6,13 +6,15 @@ font-family: 'Open Sans', sans-serif;
 weights 400, 800
 /////////////////*/
 
+
 /*///////////////// 
 COLORS 
-grayDark: #24221F;
-grayMedium: #363F45;
-grayLight: #4B5F6D;
-green: #5E7C88;
-saffron: #FEB41C;
+black: #000000;
+navy: #021C48;
+blue: #0A2EA2;
+white: #F5F5F5;
+orange: #FF5200;
+orange hover: #E04800;
 /////////////////*/
 
 
@@ -23,13 +25,10 @@ GENERAL STYLES
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	color: #24221F;
 }
 
 header {
-	background-color: #4B5F6D;
 	text-align: center;
-	padding-top: 40px;
 }
 
 h1, h2, h3, h4, .h1 {
@@ -38,21 +37,19 @@ h1, h2, h3, h4, .h1 {
 
 h1 {
 	font-weight: 900;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
-#home {
+#home-page {
 	text-decoration: none;
-	color: #ffffff;
+	color: #021C48;
 }	
 
-#home:hover {
-	color: #ffffff;
+#home-page:hover {
 }
 
 h2, h3 {
 	font-weight: 400;
-	color: #5E7C88;
 }
 
 h2 {
@@ -64,7 +61,6 @@ h3 {
 }
 
 section {
-	border: solid #5E7C88 10px;
 	text-align: center;
 	padding: 10px;
 }
@@ -74,44 +70,73 @@ NAVIGATION
 /////////////////*/
 
 header h1 {
-	color: #ffffff;
-	margin: 5px 0 40px;
+	margin: 50px 0;
+}
+
+#nav__hamburger {
+	display: none;
 }
 
 .nav__links {
-	background-color: #363F45;
-	padding: 5px 0;
+	border-top: 10px solid #FF5200;
 }
 
 .nav__links a {
 	text-decoration: none;
 	display: inline-block;
-	margin-left: 25px;
-	margin-right: 25px;
-	color: white;
+	color: #021C48;	
+	text-transform: uppercase;
+	margin-left: .5em;
+	margin-right: .5em;
+	padding: 1.96em .7em .5em;
 }
 
-header a.active {
-	color: #FEB41C;
+.nav__links a:hover {
+	background-color: #F5F5F5;
+}
+
+.nav__links a.active {
+	background-color: #FF5200;
+	color: #ffffff;
+	font-weight: bold;
 }
 
 header a:hover {
-	color: #FEB41C;
 }
 
-/*///////////////// 
-EQUIPMENT PAGES 
-/////////////////*/
+@media only screen and (max-width: 850px) {
+	
+	#nav__hamburger {
+		display: block;
+		margin: 3%;
+		text-align: right;
+	}
 
-section ul {
-	list-style-type: none;
-	text-align: left;
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding: 0;
-}
+	#js-toggle {
+		display: none;
+	}
 
-span.price {
-	float: right;
+	.nav__links a {
+		display: block;
+		border-bottom: 1px solid #F5F5F5;
+		padding: .5em .7em;
+		background-color: #FF5200;
+		color: #ffffff;
+		margin: 0;
+		text-align: left;
+		padding-left: 15px;
+	}
+	
+	.nav__links a:hover {
+		background-color: #E04800;
+	}
+
+	.nav__links a.active {
+		font-weight: normal;
+	}
+
+	.nav__links {
+		border: none;
+	}
+
 }
