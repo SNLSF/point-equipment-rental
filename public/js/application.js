@@ -5,13 +5,7 @@ $(document).ready(function() {
   }
 
   $("#nav__hamburger").click(function(){
-  	if($('.nav__links a').hasClass('retract')) {
-  		$('.nav__links a').removeClass('retract');
-    	$('#js-toggle').slideUp();
-  	} else {
-  		$('.nav__links a').addClass('retract');
-    	$('#js-toggle').slideDown();
-  	}
+  	$('#js-toggle').slideToggle();
   });
 
 
