@@ -15,19 +15,29 @@ span.price {
 TILES
 /////////////////*/
 
-.tiles__outer {
-	display: flex;
+/*.tiles__outer {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.feature img {
+	height: 200px;
+	width: auto;
+	margin: 10px;
+	color: #ffffff;
 }
 
 .tiles__item {
-	height: 100px;
-	background-color: aqua;
-	margin: 10px;
+	background: rgba(0, 0, 0, 0.09);
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
 }
-
+*/
 /*///////////////// 
 TABLET OR SMALLER
 /////////////////*/
