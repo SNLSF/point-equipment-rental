@@ -7,6 +7,13 @@ $(document).ready(function() {
   $("#nav__hamburger").click(function(){
   	$('#js-toggle').slideToggle();
   });
-
+	
+	window.onresize = function(event) {
+	  if( $(window).width() > 640) {
+	  	$("#js-toggle").css("display","flex");
+	  } else {
+	  	$("#js-toggle").css("display","none");
+	  }
+	};
 
 });
