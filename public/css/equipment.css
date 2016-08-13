@@ -18,7 +18,7 @@ TILES
 .tiles__outer {
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
@@ -64,7 +64,7 @@ TABLET OR SMALLER
 @media only screen and (max-width: 40em) {
 	
 	.tiles__item {
-		display: block;
+		transform: scale(0.8);
 	}
 
 }

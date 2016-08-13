@@ -14,6 +14,7 @@
 </head>
 <body>
   <header>
+    
     <nav class="nav__links" id="js-toggle">
       <a href="/manlifts/">Manlifts</a>
       <a href="/telehandlers/">Telehandlers</a>
@@ -21,10 +22,19 @@
       <a href="/scissorlifts/">Scissor Lifts</a>
       <a href="/concrete/">Concrete Equipment</a>
     </nav>
+    
     <i class="fa fa-bars fa-3" id="nav__hamburger"></i>
-    <h1><a href="/" id="home-page">Amigo's Heavy Equipment Rental</a></h1>
+    
+    <h1>
+      <a href="/" class="nav__title" id="home-page">
+        Amigo's Heavy Equipment Rental
+      </a>
+    </h1>
+
   </header>
+
   <%= yield %>
+
 </body>
 </html>
 

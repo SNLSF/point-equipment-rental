@@ -83,11 +83,12 @@ header h1 {
 
 .nav__links {
 	border-top: 10px solid #FF5200;
+	display: flex;
+	justify-content: center;
 }
 
 .nav__links a {
 	text-decoration: none;
-	display: inline-block;
 	color: #021C48;	
 	text-transform: uppercase;
 	margin-left: .5em;
@@ -111,18 +112,22 @@ MAIN SECTIONS
 /////////////////*/
 
 .feature {
-  width: 80%;
-  margin: 10%;
+  margin: 5%;
   text-align: center;
   background-color: #ffffff;
-  padding: 2%;
+  padding: 4%;
+}
+
+.feature__heading {
+  margin: 30px 0 40px;
 }
 
 .feature__copy {
   display: inline-block;
 }
 
-.feature__copy--left, .feature__copy--right {
+.feature__copy--left, 
+.feature__copy--right {
 	width: 45%;
   text-align: left;
 }
@@ -168,12 +173,12 @@ MAIN SECTIONS
 }
 
 .feature i { 
-	display: inline-block;
+	display: inline;
 }
 
 .feature__title {
 	margin-left: 20px;
-	display: inline-block;
+	display: inline;
 	font-size: 2em;
 }
 
@@ -226,13 +231,17 @@ TABLET OR SMALLER
 	
 	#nav__hamburger {
 		display: block;
-		margin: 3%;
+		padding: 3% 0 0 3%;
 		text-align: left;
 		font-size: 38px;
 	}
 
 	#js-toggle {
 		display: none;
+	}
+
+	.nav__links {
+		border: none;
 	}
 
 	.nav__links a {
@@ -259,20 +268,26 @@ TABLET OR SMALLER
 	}
 
 	.feature {
-	  width: 90%;
-	  padding: 5%;
+	  padding: 7%;
 	  text-align: center;
 	}
 
-	.feature i { 
+	.feature .test { 
 		font-size: 54px;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 	.feature__title {
-		display: block;
+		display: inline;
 		font-size: 1.75em;
 		text-align: center;
+	}
+
+	.feature__copy--left,
+	.feature__copy--right,
+	.feature__copy--center {
+		width: 100%;
+		padding: 0;
 	}
 
 	.feature aside {
