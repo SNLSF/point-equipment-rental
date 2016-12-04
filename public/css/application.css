@@ -188,10 +188,6 @@ MAIN SECTIONS
 	font-size: 2em;
 }
 
-.feature__title--equipment {
-	margin-left: 0;
-}
-
 .feature__title-underline {
 		border: 2px solid #FF5200;
     margin-left: 35%;

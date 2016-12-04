@@ -15,6 +15,18 @@
 	vertical-align: baseline;
 }
 
+.feature__title--equipment {
+	margin-left: 0;
+	color: #FF5200;
+}
+
+.equipment__spec {
+	color: #FF5200;
+}
+.equipment__spec:hover {
+	color: #e04800;
+}
+
 /*///////////////// 
 TILES
 /////////////////*/
