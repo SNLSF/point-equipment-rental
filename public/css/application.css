@@ -283,9 +283,8 @@ TABLET OR SMALLER
 	  text-align: center;
 	}
 
-	.feature .test { 
+	.feature { 
 		font-size: 54px;
-		/*text-align: center;*/
 	}
 
 	.feature__title {
