@@ -7,7 +7,8 @@ class CreateEquipment < ActiveRecord::Migration
   		t.string :weekly_price
   		t.string :monthly_price
   		t.string :spec_url
-  		t.text :description
+      t.text :description
+  		t.string :image
 
       t.timestamps
   	end
