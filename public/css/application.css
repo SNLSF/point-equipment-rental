@@ -60,6 +60,9 @@ h3 {
 	font-size: 1.25em;
 }
 
+p {
+	line-height: 1.7;
+}
 
 /*///////////////// 
 HELPERS 
@@ -126,9 +129,12 @@ MAIN SECTIONS
   display: inline-block;
 }
 
-.feature__copy--left, 
-.feature__copy--right {
+.feature__copy--left {
 	width: 45%;
+  text-align: left;
+}
+.feature__copy--right {
+	width: 40%;
   text-align: left;
 }
 
@@ -180,6 +186,10 @@ MAIN SECTIONS
 	margin-left: 20px;
 	display: inline;
 	font-size: 2em;
+}
+
+.feature__title--equipment {
+	margin-left: 0;
 }
 
 .feature__title-underline {

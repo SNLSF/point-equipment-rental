@@ -4,7 +4,7 @@ get '/boomlifts/' do
 end
 
 get '/telehandlers/' do
-	@equipment = Equipment.where(category:"Telehander")
+	@equipment = Equipment.where(category:"Telehandler")
 	erb :'equipment/telehandlers'
 end
 

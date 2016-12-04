@@ -1,13 +1,12 @@
-section ul {
+.feature__prices {
 	list-style-type: none;
 	text-align: left;
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
 	padding: 0;
+	line-height: 2;
+	/*width: 70%;*/
 }
 
-span.price {
+.feature__prices__rate {
 	float: right;
 }
 
