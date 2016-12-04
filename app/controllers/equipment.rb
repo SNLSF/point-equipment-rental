@@ -13,9 +13,9 @@ get '/skidsteers/' do
 	erb :'equipment/skidsteers'
 end
 
-get '/scissorlifts/' do
-	@equipment = Equipment.where(category:"Scissor Lift")
-	erb :'equipment/scissorlifts'
+get '/trackloaders/' do
+	@equipment = Equipment.where(category:"Track Loader")
+	erb :'equipment/trackloaders'
 end
 
 get '/concrete/' do
