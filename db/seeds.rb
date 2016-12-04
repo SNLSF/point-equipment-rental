@@ -37,7 +37,7 @@ equipment = [
 		monthly_price: "$2,775.00", 
 		spec_url: "http://www.mustangmfg.com/Libraries/Product_Spec_Sheets/Mustang_2044_SpecSheet__04-2012.sflb.ashx", 
 		description: "Operating capacity of 1450 lbs, Lift height of 112 inch, Machine weight of 5623 lbs, 46 hp Yanmar diesel engine",
-		image: "mustang-2044.jpg"
+		image: "mustang1.jpg"
 	},
 	{
 		name: "Mustang MTL20 Rubber Track Loader", 
