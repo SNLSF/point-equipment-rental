@@ -1,104 +1,76 @@
 equipment = [
 	{
-		name: "Genie Z60-34", 
-		category: "Manlift",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
+		name: "Genie Z60-34 Diesel 4X4 Boomlift", 
+		category: "Boomlift",
+		daily_price: "$425.00", 
+		weekly_price: "$1,250.00", 
+		monthly_price: "$3,750.00", 
 		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Boom+Lift&make=Genie&model=Z60%2F34&modelid=108210", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
+		description: "60 foot articulated boom platform height, 65 foot working height, Deutz diesel powered, 34 foot horizontal reach, 7 foot 6 inch wide profile, 4x4 RT tires, A/C outlet in platform"
 	},
 	{
-		name: "Mustang Skid Steer 2044", 
-		category: "Skidsteer",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "http://www.ritchiespecs.com/specification?category=Skid%20Steer%20Loader&make=MUSTANG&model=2044&modelid=92147", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
-	},
-	{
-		name: "Mustang MTL20 Track Loader", 
-		category: "Skidsteer",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "http://www.ritchiespecs.com/specification?category=Skid%20Steer%20Loader&make=MUSTANG&model=2044&modelid=92147", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
-	},
-	{
-		name: "JCB 508-40 Telescopic Forklift", 
+		name: "Gehl RS5-34 Telehandler 4X4", 
 		category: "Telehandler",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "$100.00", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
+		daily_price: "$400.00", 
+		weekly_price: "$1,200.00", 
+		monthly_price: "$3,600.00", 
+		spec_url: "", 
+		description: "34 foot reach, 6000 lb lifting capacity, John Deere diesel powered, ROPS cab, 7 foot 6 inch wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge"
 	},
 	{
-		name: "JCB 506-b Telescopic Forklift", 
+		name: "Genie Z45-22 Diesel 4X4 Boomlift", 
+		category: "Boomlift",
+		daily_price: "$375.00", 
+		weekly_price: "$1,125.00", 
+		monthly_price: "$3,375.00", 
+		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Boom+Lift&make=Genie&model=Z60%2F34&modelid=108210", 
+		description: "45 foot articulated boom platform height, 51 foot working height, Deutz diesel powered, 23 foot horizontal reach, 7 foot wide profile, 4x4 RT tires, A/C outlet in platform"
+	},
+	{
+		name: "Mustang 2044 Skid Steer Loader", 
+		category: "Skidsteer",
+		daily_price: "$300.00", 
+		weekly_price: "$925.00", 
+		monthly_price: "$2,775.00", 
+		spec_url: "http://www.mustangmfg.com/Libraries/Product_Spec_Sheets/Mustang_2044_SpecSheet__04-2012.sflb.ashx", 
+		description: "Operating capacity of 1450 lbs, Lift height of 112 inch, Machine weight of 5623 lbs, 46 hp Yanmar diesel engine"
+	},
+	{
+		name: "Mustang MTL20 Rubber Track Loader", 
+		category: "Track Loader",
+		daily_price: "$425.00", 
+		weekly_price: "$1,275.00", 
+		monthly_price: "$3,825.00", 
+		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Multi+Terrain+Loader&make=Mustang&model=MTL20&modelid=94206", 
+		description: "Turbocharged Isuzu 80 h.p. diesel engine, 18 inch rubber tracks, 94.8 inch dump height, 2F/2R hydrostatic transmission, 19.8 gpm aux hydraulic flow system, .75 c.y. smooth edge bucket"
+	},
+	{
+		name: "JCB 508-40 Telehandler 4X4", 
 		category: "Telehandler",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
+		daily_price: "$495.00", 
+		weekly_price: "$1,485.00", 
+		monthly_price: "$4,455.00", 
+		spec_url: "", 
+		description: "40 foot reach, 8000 lb lifting capacity, Perkins diesel powered, ROPS cab, 7 foot wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge"
+	},
+	{
+		name: "JCB 506-b Telehandler 4X4", 
+		category: "Telehandler",
+		daily_price: "$425.00", 
+		weekly_price: "$1,275.00", 
+		monthly_price: "$3,825.00", 
 		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Telescopic+Forklift&make=JCB&model=508C&modelid=94220", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
-	},
-	{
-		name: "Scissor Lift", 
-		category: "Scissor Lift",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "#", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
+		description: "36 foot reach, 6000 lb lifting capacity, Perkins diesel powered, ROPS cab, 7 foot wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge"
 	},	
 	{
-		name: "GS™-1530 & GS™-1930", 
-		category: "Scissor Lift",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Scissor+Lift&make=Genie&model=GS1530&modelid=108584", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
-	},	
-	{
-		name: "GS™-2032 & GS™-2632", 
-		category: "Scissor Lift",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Scissor+Lift&make=Genie&model=GS2032&modelid=108588", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
-	},
-	{
-		name: "JLG-35e", 
-		category: "Manlift",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
+		name: "JLG-35e Electric Boomlift", 
+		category: "Boomlift",
+		daily_price: "$350.00", 
+		weekly_price: "$1,050.00", 
+		monthly_price: "$3,150.00", 
 		spec_url: "https://csapps.jlg.com/OnlineManuals/Manuals/JLG/JLG%20Boom%20Lifts/30_35_40_45E/Service_3120743_10-01-01_ANSI_English.pdf", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
+		description: "35 foot articulated boom platform height, 41 foot working height, Electric, 58 foot wide, Non-marking road tires, A/C outlet in platform"
 	},
-	{
-		name: "JLG-450AG", 
-		category: "Manlift",
-		daily_price: "$100.00", 
-		weekly_price: "$300.00", 
-		monthly_price: "$900.00", 
-		spec_url: "http://www.jlg.com/en/equipment/engine-powered-boom-lifts/articulating/450aj", 
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-		Aenean blandit eu diam eu dictum."
-	}
 ]
 
 
