@@ -130,8 +130,8 @@ MAIN SECTIONS
 }
 
 a.feature__cta {
-	text-decoration: none !important;
-	color: #ffffff !important;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .feature__copy--left {
