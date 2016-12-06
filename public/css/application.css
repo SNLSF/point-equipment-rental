@@ -26,6 +26,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	background-color: #EEEEEE;
+	font-size: 16px;
 }
 
 header {
@@ -237,7 +238,7 @@ TABLET OR SMALLER
 	
 	header h1 {
 		margin: 10px 10px;
-		font-size: 40px;
+		font-size: 36px;
 	}
 
 	#nav__hamburger {
@@ -281,10 +282,6 @@ TABLET OR SMALLER
 	.feature {
 	  padding: 7%;
 	  text-align: center;
-	}
-
-	.feature { 
-		font-size: 54px;
 	}
 
 	.feature__title {
