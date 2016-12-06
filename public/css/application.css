@@ -110,7 +110,6 @@ header h1 {
 	font-weight: bold;
 }
 
-
 /*///////////////// 
 MAIN SECTIONS
 /////////////////*/
@@ -128,6 +127,11 @@ MAIN SECTIONS
 
 .feature__copy {
   display: inline-block;
+}
+
+a.feature__cta {
+	text-decoration: none !important;
+	color: #ffffff !important;
 }
 
 .feature__copy--left {
@@ -219,7 +223,6 @@ button {
 	background-color: #0A2EA2;
 	border: none;
 	width: auto;
-	text-transform: uppercase;
 	font-size: 20px;
 	padding: 14px 30px;
 	margin-bottom: 10px;
@@ -238,7 +241,7 @@ TABLET OR SMALLER
 	
 	header h1 {
 		margin: 10px 10px;
-		font-size: 36px;
+		font-size: 30px;
 	}
 
 	#nav__hamburger {
@@ -300,6 +303,5 @@ TABLET OR SMALLER
 	.feature aside {
 		display: none;
 	}
-
 }
 

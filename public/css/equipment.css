@@ -1,3 +1,9 @@
+.cta {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
 .feature__prices {
 	list-style-type: none;
 	text-align: left;
