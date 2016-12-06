@@ -65,6 +65,13 @@ p {
 	line-height: 1.7;
 }
 
+ul {
+	list-style: none;
+}
+ul li {
+	line-height: 1.7;
+}
+
 /*///////////////// 
 HELPERS 
 /////////////////*/
