@@ -2,6 +2,7 @@
 	position: fixed;
 	bottom: 0;
 	right: 0;
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.59);
 }
 
 .feature__prices {
@@ -93,5 +94,9 @@ TABLET OR SMALLER
 	.tiles__title {
 		font-size: 24px;
 	}
-
+	
+	.cta {
+		padding: 12px 16px;
+		font-size: 17px;
+	}
 }
