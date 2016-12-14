@@ -1,0 +1,70 @@
+<section class="feature">
+	<h2>Welcome, Administrator!</h2>
+	<div class="admin-options">
+		<h3>Inventory</h3>
+		<p>
+			Click to edit an item
+		</p>
+		<ul>
+			<% @equipment.each do |e| %>
+				<li class="inventory-item" id="<%= e.id %>">
+					<a href="/equipment/<%=e.id%>/edit"><%= e.name %></a>
+				</li>
+			<% end %>
+		</ul>
+	</div>
+	<div class="admin-options">
+		<h3>
+			Add an item to inventory
+		</h3>
+
+    <form action="/equipment/new" method="POST">
+	    <div class="label-wrapper">
+	    	<label for="name">Name</label>
+	    </div>
+	    <input id="name" name="name" type="text" placeholder="Mustang 2044 Skid Steer Loader" class="field-box"><br>
+	    
+	    <label for="category">Category</label><br>
+			<div class="radio-wrapper">
+				<input id="category" name="category" type="radio" value="boomlift" class="radio">Boomlift<br>
+				<input id="category" name="category" type="radio" value="skidsteer" class="radio">Skidsteer<br>
+				<input id="category" name="category" type="radio" value="telehandler" class="radio">Telehandler<br>
+				<input id="category" name="category" type="radio" value="trackloader" class="radio">Track Loader<br>
+			</div>
+
+	    <div class="label-wrapper">
+	    	<label for="daily_price">Daily Price</label>
+	    </div>
+			<input id="daily_price" name="daily_price" type="text" placeholder="$300.00" class="field-box"><br>
+
+	    <div class="label-wrapper">
+	    	<label for="weekly_price">Weekly Price</label>
+	    </div>
+			<input id="weekly_price" name="weekly_price" type="text" placeholder="$925.00" class="field-box"><br>
+
+	    <div class="label-wrapper">
+	    	<label for="monthly_price">Monthly Price</label>
+	    </div>
+			<input id="monthly_price" name="monthly_price" type="text" placeholder="$2,775.00" class="field-box"><br>
+
+	    <div class="label-wrapper">
+	    	<label for="spec_url">Spec URL</label>
+	    </div>
+			<input id="spec_url" name="spec_url" type="text" placeholder="http://www.mustangmfg.com/..." class="field-box"><br>
+
+	    <div class="label-wrapper">
+	    	<label for="description">Description</label>
+	    </div>
+			<input id="description" name="description" type="text" placeholder="Separate by commas, '40 foot reach, 8000 lb...'" class="field-box"><br>
+
+	    <div class="label-wrapper">
+	    	<label for="image_url">Image URL</label>
+	    </div>
+			<input id="image_url" name="image_url" type="text" placeholder="Right click an image and copy paste image address" class="field-box"><br>
+
+      <button type="submit" value="Create Item" class="submit">
+          save
+      </button>
+    </form>
+	</div>
+</section>

@@ -46,7 +46,9 @@
 		</div>
 		<div class="feature__copy feature__copy--right">
 			<div class="equipment__image">
-				<img src="../images/<%= e.image %>">
+				<% if e.image %>
+					<img src="../images/<%= e.image %>">
+				<% end %>
 			</div>
 		</div>
 	</section>

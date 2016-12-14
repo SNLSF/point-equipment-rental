@@ -1,7 +1,7 @@
 equipment = [
 	{
 		name: "Genie Z60-34 Diesel 4X4 Boomlift", 
-		category: "Boomlift",
+		category: "boomlift",
 		daily_price: "$425.00", 
 		weekly_price: "$1,250.00", 
 		monthly_price: "$3,750.00", 
@@ -11,7 +11,7 @@ equipment = [
 	},
 	{
 		name: "Gehl RS5-34 Telehandler 4X4", 
-		category: "Telehandler",
+		category: "telehandler",
 		daily_price: "$400.00", 
 		weekly_price: "$1,200.00", 
 		monthly_price: "$3,600.00", 
@@ -21,7 +21,7 @@ equipment = [
 	},
 	{
 		name: "Genie Z45-22 Diesel 4X4 Boomlift", 
-		category: "Boomlift",
+		category: "boomlift",
 		daily_price: "$375.00", 
 		weekly_price: "$1,125.00", 
 		monthly_price: "$3,375.00", 
@@ -31,7 +31,7 @@ equipment = [
 	},
 	{
 		name: "Mustang 2044 Skid Steer Loader", 
-		category: "Skidsteer",
+		category: "skidsteer",
 		daily_price: "$300.00", 
 		weekly_price: "$925.00", 
 		monthly_price: "$2,775.00", 
@@ -41,7 +41,7 @@ equipment = [
 	},
 	{
 		name: "Mustang MTL20 Rubber Track Loader", 
-		category: "Track Loader",
+		category: "trackloader",
 		daily_price: "$425.00", 
 		weekly_price: "$1,275.00", 
 		monthly_price: "$3,825.00", 
@@ -51,7 +51,7 @@ equipment = [
 	},
 	{
 		name: "JCB 508-40 Telehandler 4X4", 
-		category: "Telehandler",
+		category: "telehandler",
 		daily_price: "$495.00", 
 		weekly_price: "$1,485.00", 
 		monthly_price: "$4,455.00", 
@@ -61,7 +61,7 @@ equipment = [
 	},
 	{
 		name: "JCB 506-b Telehandler 4X4", 
-		category: "Telehandler",
+		category: "telehandler",
 		daily_price: "$425.00", 
 		weekly_price: "$1,275.00", 
 		monthly_price: "$3,825.00", 
@@ -71,7 +71,7 @@ equipment = [
 	},	
 	{
 		name: "JLG-35e Electric Boomlift", 
-		category: "Boomlift",
+		category: "boomlift",
 		daily_price: "$350.00", 
 		weekly_price: "$1,050.00", 
 		monthly_price: "$3,150.00", 

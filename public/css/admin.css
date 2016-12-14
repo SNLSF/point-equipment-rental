@@ -1,0 +1,34 @@
+.admin-options {
+	text-align: left;
+  padding: 2%;
+  border: solid 1px #eeeeee;
+  margin-bottom: 40px;
+}
+
+input {
+	margin-left: 15px;
+}
+
+.label-wrapper {
+	width: 150px;
+	display: inline-block;
+}
+
+.radio-wrapper {
+	margin-left: 150px;
+}
+
+.field-box {
+	width: 50%;
+	margin: 10px 0;
+}
+
+.radio {
+	margin: 5px 10px 5px 0;
+}
+
+button.submit {
+	padding: 7px 26px;
+	font-size: 16px;
+	margin-top: 20px;
+}
