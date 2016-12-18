@@ -5,6 +5,10 @@
   margin-bottom: 40px;
 }
 
+.admin-edit-list {
+	padding-left: 20px;
+}
+
 input {
 	margin-left: 15px;
 }
@@ -16,6 +20,11 @@ input {
 
 .radio-wrapper {
 	margin-left: 150px;
+}
+@media only screen and (max-width: 40em) {
+	.radio-wrapper {
+		margin: 10px 0;
+	}
 }
 
 .field-box {

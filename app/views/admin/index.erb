@@ -5,7 +5,7 @@
 		<p>
 			Click to edit an item
 		</p>
-		<ul>
+		<ul class="admin-edit-list">
 			<% @equipment.each do |e| %>
 				<li class="inventory-item" id="<%= e.id %>">
 					<a href="/equipment/<%=e.id%>/edit"><%= e.name %></a>
