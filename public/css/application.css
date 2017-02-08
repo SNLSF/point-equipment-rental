@@ -126,9 +126,6 @@ MAIN SECTIONS
   text-align: center;
   background-color: #ffffff;
   padding: 4%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .feature__heading {
@@ -285,7 +282,6 @@ TABLET OR SMALLER
 	.feature {
 	  padding: 7%;
 	  text-align: center;
-	  display: inline-block;
 	}
 
 	.feature__title {
