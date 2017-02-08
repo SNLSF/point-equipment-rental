@@ -50,7 +50,7 @@ TILES
 
 .tiles__title {
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
   text-decoration: none;
   position: absolute;

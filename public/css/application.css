@@ -126,6 +126,9 @@ MAIN SECTIONS
   text-align: center;
   background-color: #ffffff;
   padding: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature__heading {
@@ -144,18 +147,12 @@ a.feature__cta {
 .feature__copy--left {
 	width: 45%;
   text-align: left;
+  padding-left: 0;
+  padding-right: 5%;
 }
 .feature__copy--right {
 	width: 40%;
   text-align: left;
-}
-
-.feature__copy--left {
-  padding-left: 0;
-  padding-right: 5%;
-}
-
-.feature__copy--right {
   padding-right: 0;
   padding-left: 5%;
 }
@@ -283,10 +280,6 @@ TABLET OR SMALLER
 
 	.nav__links a.active {
 		font-weight: normal;
-	}
-
-	.nav__links {
-		border: none;
 	}
 
 	.feature {
