@@ -122,10 +122,12 @@ MAIN SECTIONS
 /////////////////*/
 
 .feature {
+  display: inline-block;
   margin: 5%;
   text-align: center;
   background-color: #ffffff;
   padding: 4%;
+  width: 82%;
 }
 
 .feature__heading {
