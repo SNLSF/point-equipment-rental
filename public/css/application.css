@@ -284,6 +284,7 @@ TABLET OR SMALLER
 	.feature {
 	  padding: 7%;
 	  text-align: center;
+	  width: 75%;
 	}
 
 	.feature__title {
