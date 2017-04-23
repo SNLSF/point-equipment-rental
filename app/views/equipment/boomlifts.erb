@@ -22,7 +22,9 @@
 					<% end %>
 				</ul>
 			</p>
-			<span><a href="<%=e.spec_url%>" class="equipment__spec">Read the full spec</a></span>
+			<% if e.spec_url.length > 1 %>
+				<span><a href="<%=e.spec_url%>" class="equipment__spec">Read the full spec</a></span>
+			<% end %>
 			<ul class="feature__prices">
 				<li>
 					Daily Price: 

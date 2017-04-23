@@ -25,7 +25,7 @@ equipment = [
 		daily_price: "$375.00", 
 		weekly_price: "$1,125.00", 
 		monthly_price: "$3,375.00", 
-		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Boom+Lift&make=Genie&model=Z60%2F34&modelid=108210", 
+		spec_url: "", 
 		description: "45 foot articulated boom platform height, 51 foot working height, Deutz diesel powered, 23 foot horizontal reach, 7 foot wide profile, 4x4 RT tires, A/C outlet in platform",
 		image: "genie-z45.jpg"
 	},
@@ -35,7 +35,7 @@ equipment = [
 		daily_price: "$300.00", 
 		weekly_price: "$925.00", 
 		monthly_price: "$2,775.00", 
-		spec_url: "http://www.mustangmfg.com/Libraries/Product_Spec_Sheets/Mustang_2044_SpecSheet__04-2012.sflb.ashx", 
+		spec_url: "http://www.ritchiespecs.com/specification?category=Skid%20Steer%20Loader&make=MUSTANG&model=2044&modelid=92147", 
 		description: "Operating capacity of 1450 lbs, Lift height of 112 inch, Machine weight of 5623 lbs, 46 hp Yanmar diesel engine",
 		image: "mustang1.jpg"
 	},
@@ -65,7 +65,7 @@ equipment = [
 		daily_price: "$425.00", 
 		weekly_price: "$1,275.00", 
 		monthly_price: "$3,825.00", 
-		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Telescopic+Forklift&make=JCB&model=508C&modelid=94220", 
+		spec_url: "", 
 		description: "36 foot reach, 6000 lb lifting capacity, Perkins diesel powered, ROPS cab, 7 foot wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge",
 		image: "tele-forklift-jcb-506b.jpg"
 	},	
