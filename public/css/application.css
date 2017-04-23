@@ -79,6 +79,10 @@ HELPERS
 	margin-bottom: 0;
 }
 
+.no-wrap { 
+  white-space: nowrap;
+}
+
 
 /*///////////////// 
 NAVIGATION 
@@ -131,7 +135,6 @@ MAIN SECTIONS
 }
 
 .feature__heading {
-  white-space: nowrap;
   margin: 30px 0 40px;
 }
 
