@@ -126,7 +126,9 @@ MAIN SECTIONS
 /////////////////*/
 
 .feature {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 5%;
   text-align: center;
   background-color: #ffffff;
@@ -289,6 +291,7 @@ TABLET OR SMALLER
 	  padding: 7%;
 	  text-align: center;
 	  width: 75%;
+	  display: inline-block;
 	}
 
 	.feature__title {
