@@ -15,7 +15,7 @@ equipment = [
 		daily_price: "$400.00", 
 		weekly_price: "$1,200.00", 
 		monthly_price: "$3,600.00", 
-		spec_url: "", 
+		spec_url: "http://www.jefferson-rentals.com/p_gehl-RS-5-34.html", 
 		description: "34 foot reach, 6000 lb lifting capacity, John Deere diesel powered, ROPS cab, 7 foot 6 inch wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge",
 		image: "gehl.jpg"
 	},
@@ -25,7 +25,7 @@ equipment = [
 		daily_price: "$375.00", 
 		weekly_price: "$1,125.00", 
 		monthly_price: "$3,375.00", 
-		spec_url: "", 
+		spec_url: "http://www.ritchiespecs.com/specification?type=&category=Boom+Lift&make=Genie&model=Z45%2F25&modelid=108201", 
 		description: "45 foot articulated boom platform height, 51 foot working height, Deutz diesel powered, 23 foot horizontal reach, 7 foot wide profile, 4x4 RT tires, A/C outlet in platform",
 		image: "genie-z45.jpg"
 	},
@@ -78,7 +78,17 @@ equipment = [
 		spec_url: "https://csapps.jlg.com/OnlineManuals/Manuals/JLG/JLG%20Boom%20Lifts/30_35_40_45E/Service_3120743_10-01-01_ANSI_English.pdf", 
 		description: "35 foot articulated boom platform height, 41 foot working height, Electric, 58 foot wide, Non-marking road tires, A/C outlet in platform",
 		image: "jlg-35e.jpg"
-	},
+	},	
+	{
+		name: "JLG 9-43 Telehandler 4X4", 
+		category: "telehandler",
+		daily_price: "$350.00", 
+		weekly_price: "$900.00", 
+		monthly_price: "$2,800.00", 
+		spec_url: "https://csapps.jlg.com/OnlineManuals/Manuals/JLG/JLG%20Boom%20Lifts/30_35_40_45E/Service_3120743_10-01-01_ANSI_English.pdf", 
+		description: "43' reach, 9000 lb lifting capacity, Cummins Diesel Powered, ROPS Enclosed Cab, 8 foot wide profile, 4x4 RT Tires, OSHA approved Personnel Platform available at an additional charge",
+		image: "jlg-9-43.png"
+	}
 ]
 
 
