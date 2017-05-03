@@ -12,9 +12,9 @@ equipment = [
 	{
 		name: "Gehl RS5-34 Telehandler 4X4", 
 		category: "telehandler",
-		daily_price: "$400.00", 
-		weekly_price: "$1,200.00", 
-		monthly_price: "$3,600.00", 
+		daily_price: "$300.00", 
+		weekly_price: "$750.00", 
+		monthly_price: "$2,250.00", 
 		spec_url: "http://www.jefferson-rentals.com/p_gehl-RS-5-34.html", 
 		description: "34 foot reach, 6000 lb lifting capacity, John Deere diesel powered, ROPS cab, 7 foot 6 inch wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge",
 		image: "gehl.jpg"
@@ -52,9 +52,9 @@ equipment = [
 	{
 		name: "JCB 508-40 Telehandler 4X4", 
 		category: "telehandler",
-		daily_price: "$495.00", 
-		weekly_price: "$1,485.00", 
-		monthly_price: "$4,455.00", 
+		daily_price: "$350.00", 
+		weekly_price: "$850.00", 
+		monthly_price: "$2,550.00", 
 		spec_url: "", 
 		description: "40 foot reach, 8000 lb lifting capacity, Perkins diesel powered, ROPS cab, 7 foot wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge",
 		image: "jcb-508-40(1).jpg"
@@ -62,9 +62,9 @@ equipment = [
 	{
 		name: "JCB 506-b Telehandler 4X4", 
 		category: "telehandler",
-		daily_price: "$425.00", 
-		weekly_price: "$1,275.00", 
-		monthly_price: "$3,825.00", 
+		daily_price: "$325.00", 
+		weekly_price: "$800.00", 
+		monthly_price: "$2,400.00", 
 		spec_url: "", 
 		description: "36 foot reach, 6000 lb lifting capacity, Perkins diesel powered, ROPS cab, 7 foot wide profile, 4x4 RT tires, OSHA approved personnel platform available at an additional charge",
 		image: "tele-forklift-jcb-506b.jpg"
