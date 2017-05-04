@@ -4,12 +4,12 @@
 	</h2>
 	<div class="admin-options">
 		<form action="/equipment/<%=@equipment.id%>" method="POST">
-		  <div class="label-wrapper">
-		  	<label for="name">Name</label>
-		  </div>
-		  <input id="name" name="name" type="text" placeholder="<%=@equipment.name%>" class="field-box"><br>
-		  
-		  <label for="category">Category</label><br>
+			<div class="label-wrapper">
+				<label for="name">Name</label>
+			</div>
+			<input id="name" name="name" type="text" placeholder="<%=@equipment.name%>" class="field-box"><br>
+			
+			<label for="category">Category</label><br>
 			<div class="radio-wrapper">
 				<input id="category" name="category" type="radio" value="boomlift" class="radio">Boomlift<br>
 				<input id="category" name="category" type="radio" value="skidsteer" class="radio">Skidsteer<br>
@@ -17,46 +17,46 @@
 				<input id="category" name="category" type="radio" value="trackloader" class="radio">Track Loader<br>
 			</div>
 
-		  <div class="label-wrapper">
-		  	<label for="daily_price">Daily Price</label>
-		  </div>
+			<div class="label-wrapper">
+				<label for="daily_price">Daily Price</label>
+			</div>
 			<input id="daily_price" name="daily_price" type="text" placeholder="<%=@equipment.daily_price%>" class="field-box"><br>
 
-		  <div class="label-wrapper">
-		  	<label for="weekly_price">Weekly Price</label>
-		  </div>
+			<div class="label-wrapper">
+				<label for="weekly_price">Weekly Price</label>
+			</div>
 			<input id="weekly_price"  name="weekly_price" type="text" placeholder="<%=@equipment.weekly_price%>" class="field-box"><br>
 
-		  <div class="label-wrapper">
-		  	<label for="monthly_price">Monthly Price</label>
-		  </div>
+			<div class="label-wrapper">
+				<label for="monthly_price">Monthly Price</label>
+			</div>
 			<input id="monthly_price" name="monthly_price" type="text" placeholder="<%=@equipment.monthly_price%>" class="field-box"><br>
 
-		  <div class="label-wrapper">
-		  	<label for="spec_url">Spec URL</label>
-		  </div>
+			<div class="label-wrapper">
+				<label for="spec_url">Spec URL</label>
+			</div>
 			<input id="spec_url" name="spec_url" type="text" placeholder="<%=@equipment.spec_url%>" class="field-box"><br>
 
-		  <div class="label-wrapper">
-		  	<label for="description">Description</label>
-		  </div>
+			<div class="label-wrapper">
+				<label for="description">Description</label>
+			</div>
 			<input id="description" name="description" type="text" placeholder="Separate by commas e.g. '<%=@equipment.description%>'" class="field-box"><br>
 
-		  <div class="label-wrapper">
-		  	<label for="image_url">Image URL</label>
-		  </div>
+			<div class="label-wrapper">
+				<label for="image_url">Image URL</label>
+			</div>
 			<input id="image_url" name="image_url" type="text" placeholder="Right click an image and copy paste image address" class="field-box"><br>
 
-		  <button type="submit" value="Update Item" class="submit">
-		      save
-		  </button>
+			<button type="submit" value="Update Item" class="submit">
+					save
+			</button>
 		</form>
 		<p>
 			-OR-
 		</p>
 		<form action="/equipment/<%=@equipment.id%>" method="post">
-		  <input type="hidden" name="_method" value="DELETE">
-		  <button type="submit" class="submit">delete item</button>
+			<input type="hidden" name="_method" value="DELETE">
+			<button type="submit" class="submit">delete item</button>
 		</form>
 
 	</div>
